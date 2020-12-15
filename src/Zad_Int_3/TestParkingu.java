@@ -13,6 +13,7 @@ public class TestParkingu {
         Parking p1 = new Parking("C13");
         Parking p2 = new Parking("D20");
         Parking p3 = new Parking("WROńskiego");
+        Parking [] parkingi = {p1, p2, p3};
 
         p1.wszystkiepojazdy(pojazd1);
         p1.wszystkiepojazdy(pojazd2);

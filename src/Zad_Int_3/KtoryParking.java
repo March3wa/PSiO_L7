@@ -1,7 +1,7 @@
 package Zad_Int_3;
 
 public class KtoryParking{
-    void ktoryParkingWybrac(Parking p1, Parking p2, Parking p3){
+    void ktoryParkingWybrac(Parking [] parkingi){
         //przyjmuję krótsze nazwy
         int il1 = p1.pojazdyNaParkingu.length;
         int il2 = p2.pojazdyNaParkingu.length;
