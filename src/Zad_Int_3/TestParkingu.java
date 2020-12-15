@@ -8,6 +8,7 @@ public class TestParkingu {
         Pojazd pojazd4 = new Samochod("Mercedes", "DW 82335");
         Pojazd pojazd5 = new Samochod("BMW", "DWR 1129");
         Pojazd pojazd6 = new Motocykl("Honda", "DW 3186");
+        Pojazd pojazd7 = new Motocykl("Suzuki", "DWR 6349");
 
         Parking p1 = new Parking("C13");
 
@@ -17,12 +18,14 @@ public class TestParkingu {
         p1.wszystkiepojazdy(pojazd4);
         p1.wszystkiepojazdy(pojazd5);
         p1.wszystkiepojazdy(pojazd6);
+        p1.wszystkiepojazdy(pojazd7);
 
         p1.zarejestrujPojazd(pojazd2.numerRejestracyjny());
         p1.zarejestrujPojazd(pojazd3.numerRejestracyjny());
         p1.zarejestrujPojazd(pojazd5.numerRejestracyjny());
         p1.zarejestrujPojazd(pojazd3.numerRejestracyjny());
         p1.zarejestrujPojazd(pojazd6.numerRejestracyjny());
+        p1.zarejestrujPojazd(pojazd7.numerRejestracyjny());
 
         System.out.println(p1);
         for (int i = 0; i < p1.pojazdyZarejestrowane.length; i++) {
